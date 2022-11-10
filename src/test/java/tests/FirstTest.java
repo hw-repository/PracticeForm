@@ -49,18 +49,15 @@ public class FirstTest {
         $("[id=output]").shouldHave(text("name"), text("ku4eremkoElena@gmail.com"),
                 text("Minsk"), text("Horlovka"));
         System.out.println("All is good!");
-        Configuration.timeout = 8000;
-
 
         open("/automation-practice-form");
         executeJavaScript("$('footer').remove()");
         executeJavaScript("$('#fixedban').remove()");
 
-
+        System.out.println("Hello Elena");
 
 
     }
-
 
 
 
