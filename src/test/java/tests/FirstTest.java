@@ -56,7 +56,7 @@ public class FirstTest {
         executeJavaScript("$('footer').remove()");
         executeJavaScript("$('#fixedban').remove()");
 
-
+        System.out.println("Hello Elena");
 
 
     }
